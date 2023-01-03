@@ -50,6 +50,70 @@ h1 {
     background-position: left;
 }
 
+
+.my-work {
+    height: 70vh;
+    padding: 5%;
+    margin-bottom: 150px;
+    position: relative;
+    background-image: url(./images/work-background.jpg);
+    background-size: cover;
+}
+
+.work-heading{
+    text-align: center;
+    color:rgb(240, 9, 98);
+}
+
+.my-work img {
+    position: absolute;
+    border: 5px solid aliceblue;
+}
+
+.medicare {
+    width: 40%;
+    left: 80px;
+    transition: 0.3s;
+}
+
+.business {
+    left: 400px;
+    z-index: 10;
+    top: 250px;
+    width: 35%;
+    transition: 0.3s;
+}
+
+.coffe {
+    width: 40%;
+    right: 80px;
+    bottom: 120px;
+    transition: 0.3s;
+}
+
+.medicare:hover {
+    z-index: 50;
+    width: 50%;
+    border: 15px solid rgb(5, 221, 167);
+    border-radius: 5px;
+
+}
+
+.business:hover {
+    z-index: 50;
+    width: 50%;
+    border: 15px solid rgb(4, 178, 221);
+    border-radius: 5px;
+}
+
+.coffe:hover {
+    z-index: 50;
+   width: 50%;
+   border: 15px solid rgb(95, 31, 19);
+   border-radius: 5px;
+}
+
+
 .experience-area {
     padding: 0 0 0 5%;
     background-image: url(./images/bn-last.png);
