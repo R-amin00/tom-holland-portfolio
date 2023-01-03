@@ -45,6 +45,11 @@ h1 {
     font-weight: 700;
 }
 
+.btn-link:hover {
+    background-image: linear-gradient(to left, rgb(147, 109, 236), rgb(241, 17, 167));
+    padding: 15px 45px;
+}
+
 .dream-big {
     background-image: url(./images//bn-middle.png);
     background-position: left;
